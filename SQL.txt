@@ -32,22 +32,22 @@ INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
 VALUES (3, "Bob", "Backlund", "78", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (1, "Steve", "Buschemi", "65", NOW(), NOW());
+VALUES (1, "Steve", "Austin", "65", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (2, "Beau", "Joe", "34", NOW(), NOW());
+VALUES (2, "Chuck", "Schuldiner", "34", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (3, "Bob", "Backlund", "78", NOW(), NOW());
+VALUES (3, "Bobobo", "Bo Bobobo", "78", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (1, "Steve", "Buschemi", "65", NOW(), NOW());
+VALUES (1, "John", "Space Marine", "65", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (2, "Beau", "Joe", "34", NOW(), NOW());
+VALUES (2, "Jim", "Raynor", "34", NOW(), NOW());
 
 INSERT INTO ninjas (id, first_name, last_name, age, created_at, updated_at)
-VALUES (3, "Bob", "Backlund", "78", NOW(), NOW());
+VALUES (3, "Prelate", "Zeratul", "78", NOW(), NOW());
 
 SELECT * FROM customers 
 JOIN id ON ninjas.id = dojos.id;
